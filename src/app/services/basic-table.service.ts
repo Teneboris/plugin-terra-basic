@@ -64,20 +64,18 @@ export class BasicTableService implements OnInit
             width:   '50',
         };
         let nameCell:TerraSimpleTableHeaderCellInterface = {
-            caption: 'firsname',
+            caption: 'name',
             width:   '400',
         };
-        let countCell:TerraSimpleTableHeaderCellInterface = {
+        /*let countCell:TerraSimpleTableHeaderCellInterface = {
             caption: 'lastname',
             width:   '100',
-        };
-        console.log('Zeile 76');
-        this.headerList.push(idCell, nameCell, countCell);
+        };*/
+        this.headerList.push(idCell, nameCell, );//countCell
     }
 
     public ngOnInit():void
     {
-        console.log('Zeile 82');
         for(let i:number = 1; i < 5; i++)
         {
             let cellList:Array<TerraSimpleTableCellInterface> = [];

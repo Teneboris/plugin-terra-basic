@@ -29,7 +29,6 @@ import { MatPaginatorIntl, MatPaginatorModule } from '@angular/material/paginato
 import { MatSortModule } from '@angular/material/sort';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 export function initL10n(l10nLoader) {
-    console.log('Zeile 50');
     return () => l10nLoader.load();
 }
 let PluginTerraBasicModule = class PluginTerraBasicModule {

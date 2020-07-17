@@ -10,7 +10,8 @@ import {
 @Injectable()
 export class ContactService
 {
-    private readonly url:string = 'https://d2g.plentymarkets-cloud02.com/rest/accounts/contacts';
+    //private readonly url:string = 'https://d2g.plentymarkets-cloud02.com/rest/accounts/contacts';
+    private readonly url:string = 'https://d2g.plentymarkets-cloud02.com/rest/car-parts-finder-plugin/brands?pluginSetPreview=JDJ5JDEwJGNPMUtZMjFDYU91U3kySjZBOTRrc3VaVlV6Zlkwb01jVk03d0xCbEwzRjN4cVpRQmpxdzB5';
 
     constructor(private http:HttpClient)
     {}

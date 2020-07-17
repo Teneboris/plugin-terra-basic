@@ -35,18 +35,16 @@ class BasicTableService {
             width: '50',
         };
         let nameCell = {
-            caption: 'firsname',
+            caption: 'name',
             width: '400',
         };
-        let countCell = {
+        /*let countCell:TerraSimpleTableHeaderCellInterface = {
             caption: 'lastname',
-            width: '100',
-        };
-        console.log('Zeile 76');
-        this.headerList.push(idCell, nameCell, countCell);
+            width:   '100',
+        };*/
+        this.headerList.push(idCell, nameCell); //countCell
     }
     ngOnInit() {
-        console.log('Zeile 82');
         for (let i = 1; i < 5; i++) {
             let cellList = [];
             for (let j = 0; j < 3; j++) {

@@ -40,8 +40,7 @@ export class TableComponent implements OnInit
 
     public _columnList:Array<string> = ['select',
                                         'id',
-                                        'firstName',
-                                        'lastName'];
+                                        'name'];
     /**
      * @param _multiple defines if multiple selections are possible or not
      * @param initiallySelectedValues is an array of ContactInterfaces, which are preselected

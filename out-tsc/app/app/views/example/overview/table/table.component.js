@@ -11,8 +11,7 @@ let TableComponent = class TableComponent {
         this._contactService = _contactService;
         this._columnList = ['select',
             'id',
-            'firstName',
-            'lastName'];
+            'name'];
         /**
          * @param _multiple defines if multiple selections are possible or not
          * @param initiallySelectedValues is an array of ContactInterfaces, which are preselected
