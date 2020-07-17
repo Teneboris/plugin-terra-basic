@@ -47,6 +47,7 @@ import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 
 export function initL10n(l10nLoader:L10nLoader):Function
 {
+    console.log('Zeile 50');
     return ():Promise<any> => l10nLoader.load();
 }
 

@@ -1,0 +1,1 @@
+{"version":3,"file":"start-view.component.js","sourceRoot":"","sources":["../../../../src/app/views/start-view.component.ts"],"names":[],"mappings":";AAAA,OAAO,EAAE,SAAS,EAAE,MAAM,eAAe,CAAC;AAM1C,IAAa,kBAAkB,GAA/B,MAAa,kBAAkB;CAE9B,CAAA;AAFY,kBAAkB;IAJ9B,SAAS,CAAC;QACP,QAAQ,EAAK,gBAAgB;QAC7B,WAAW,EAAE,6BAA6B;KAC7C,CAAC;GACW,kBAAkB,CAE9B;SAFY,kBAAkB"}
